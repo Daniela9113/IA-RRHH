@@ -8,7 +8,7 @@ st.title("Evaluación de Candidatos - Probabilidad de Contratación")
 
 # Sidebar para subir el modelo
 st.sidebar.header("Subir Modelo Entrenado")
-uploaded_model = st.sidebar.file_uploader("Sube tu archivo .pkl", type="pkl")
+uploaded_model = st.sidebar.file_uploader("modelo_entrenado.joblib.pkl", type="pkl")
 
 # Sidebar para subir el dataset de candidatos (CSV)
 st.sidebar.header("Subir Datos de Candidatos")
